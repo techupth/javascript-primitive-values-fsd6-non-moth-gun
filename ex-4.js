@@ -4,4 +4,4 @@
 let numberOfSoldProduct = 12000;
 let numberOfProductInStock = undefined;
 
-console.log((numberOfSoldProduct / numberOfProductInStock) * 100);
+console.log((numberOfSoldProduct / numberOfProductInStock) * 100); // NaN เพราะชนิดข้อมูลที่เป็น number เมื่อบวก ลบ คูณ หารกับ undefiend จะได้เป็นค่า NaN
